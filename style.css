@@ -1,8 +1,12 @@
 body {
 	min-height: 100vh;
+
 	display: grid;
 	place-content: center;
 	background-image: url(media/unsplash_XEmaJaM-4nE.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-family: sans-serif;
 }
 
