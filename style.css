@@ -1,7 +1,3 @@
-@root {
-	margin: 0;
-}
-
 body {
 	display: flex;
 	align-items: center;
@@ -42,7 +38,7 @@ body {
 }
 
 .user .img {
-	background-color: gray;
+	background-color: lightgray;
 	height: 3.12rem;
 	width: 3.12rem;
 	border-radius: 50%;
@@ -60,7 +56,7 @@ body {
 .divider {
 	width: 12.625rem;
 	height: 0.125rem;
-	background-color: #797979;
+	background-color: lightgray;
 	margin: 1.2rem;
 }
 
@@ -85,7 +81,10 @@ h1 {
 }
 
 .container form {
-	display: grid;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	margin: 0;
 }
 
@@ -120,4 +119,53 @@ h1 {
 	color: grey;
 	font-size: 0.87rem;
 	margin: 0;
+}
+
+@media screen and (min-width: 1200px) {
+	.container {
+		flex-direction: row;
+		justify-content: space-between;
+		width: 70.5rem;
+	}
+
+	.review {
+		display: flex;
+		width: 27.375rem;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 1.87rem;
+	}
+
+	.review .reviewDesc {
+		width: 16.0625rem;
+	}
+
+	.user {
+		margin-left: 0;
+	}
+
+	.divider {
+		width: 0.125rem;
+		height: 18.625rem;
+	}
+
+	.form {
+		width: 30.875rem;
+	}
+
+	.container form {
+		flex-direction: row;
+	}
+	.container form input {
+		width: 16rem;
+		border-radius: 0.3125rem 0 0 0.3125rem;
+		margin: 0;
+		align-items: center;
+	}
+
+	.container form button {
+		width: 7.3125rem;
+		border-radius: 0rem 0.3125rem 0.3125rem 0rem;
+	}
 }
