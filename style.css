@@ -1,3 +1,7 @@
+@root {
+	margin: 0;
+}
+
 body {
 	display: flex;
 	align-items: center;
@@ -7,85 +11,95 @@ body {
 }
 
 .container {
-	display: grid;
-	place-content: center;
-	padding-right: auto;
-	height: 90%;
-	width: 20em;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 22rem;
+	height: auto;
 	text-align: center;
-	padding: 2em;
-	padding-top: 3em;
-	padding-bottom: 1em;
+	padding: 3rem;
+	gap: 1.56rem;
 	background-color: white;
+}
+.rate svg {
+	height: 1.37rem;
 }
 
 .review p {
-	font-size: 22px;
+	font-size: 0.875rem;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
 }
 
 .user {
 	display: flex;
-	gap: 1.5em;
+	width: 16rem;
 	text-align: start;
 	justify-content: center;
 	align-items: center;
-	margin-top: 2.5em;
+	gap: 0.96rem;
 }
 
 .user .img {
 	background-color: gray;
-	height: 3.5em;
-	width: 3.5em;
+	height: 3.12rem;
+	width: 3.12rem;
 	border-radius: 50%;
 }
 
 .user-data p {
-	font-size: 18px;
+	font-size: 0.875rem;
 	font-weight: bold;
-	margin-top: 0.1em;
-	margin-bottom: 0.2em;
+	margin: 0;
 }
 .name {
 	color: cornflowerblue;
 }
 
 .divider {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 3.5em;
-	margin-bottom: 1.5em;
-	background-color: rgba(211, 211, 211, 0.71);
-	height: 0.1em;
-	width: 70%;
+	width: 12.625rem;
+	height: 0.125rem;
+	background-color: #797979;
+	margin: 1.2rem;
 }
 
 .header {
 	color: cornflowerblue;
 	font-weight: bold;
-	font-size: larger;
-	margin-bottom: 0.5em;
+	font-size: 0.87rem;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 h1 {
-	margin-top: 0.5em;
-	font-size: 52px;
+	text-align: center;
+	font-size: 2.5rem;
+	line-height: 3.125rem;
 	font-weight: bolder;
+}
+
+.form {
+	display: grid;
+	gap: 1.56rem;
 }
 
 .container form {
 	display: grid;
+	margin: 0;
 }
 
 .container form input {
 	box-sizing: border-box;
-	height: 4em;
+	height: 3.62rem;
+	width: 16.37rem;
 	margin-bottom: 0.7em;
-	padding-left: 1.5em;
+	padding-left: 1.25rem;
 	border: 1px solid #797979;
 	color: gray;
 	background-color: lightgrey;
 	border-radius: 3px;
-	font-size: 1em;
+	font-size: 0.87rem;
 }
 
 .container form input::placeholder {
@@ -93,17 +107,17 @@ h1 {
 }
 
 .container form button {
-	box-sizing: border-box;
-	height: 3.5em;
+	height: 3.62rem;
+	width: 16.37rem;
 	border: none;
 	background-color: cornflowerblue;
-	font-weight: bold;
-	font-size: large;
+	font-size: 0.87rem;
 	color: white;
 	border-radius: 3px;
 }
 
 .footer {
-	margin-top: 2em;
 	color: grey;
+	font-size: 0.87rem;
+	margin: 0;
 }
