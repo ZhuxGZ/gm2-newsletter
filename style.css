@@ -1,0 +1,109 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgray;
+	font-family: sans-serif;
+}
+
+.container {
+	display: grid;
+	place-content: center;
+	padding-right: auto;
+	height: 90%;
+	width: 20em;
+	text-align: center;
+	padding: 2em;
+	padding-top: 3em;
+	padding-bottom: 1em;
+	background-color: white;
+}
+
+.review p {
+	font-size: 22px;
+}
+
+.user {
+	display: flex;
+	gap: 1.5em;
+	text-align: start;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5em;
+}
+
+.user .img {
+	background-color: gray;
+	height: 3.5em;
+	width: 3.5em;
+	border-radius: 50%;
+}
+
+.user-data p {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 0.1em;
+	margin-bottom: 0.2em;
+}
+.name {
+	color: cornflowerblue;
+}
+
+.divider {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3.5em;
+	margin-bottom: 1.5em;
+	background-color: rgba(211, 211, 211, 0.71);
+	height: 0.1em;
+	width: 70%;
+}
+
+.header {
+	color: cornflowerblue;
+	font-weight: bold;
+	font-size: larger;
+	margin-bottom: 0.5em;
+}
+
+h1 {
+	margin-top: 0.5em;
+	font-size: 52px;
+	font-weight: bolder;
+}
+
+.container form {
+	display: grid;
+}
+
+.container form input {
+	box-sizing: border-box;
+	height: 4em;
+	margin-bottom: 0.7em;
+	padding-left: 1.5em;
+	border: 1px solid #797979;
+	color: gray;
+	background-color: lightgrey;
+	border-radius: 3px;
+	font-size: 1em;
+}
+
+.container form input::placeholder {
+	font-weight: bolder;
+}
+
+.container form button {
+	box-sizing: border-box;
+	height: 3.5em;
+	border: none;
+	background-color: cornflowerblue;
+	font-weight: bold;
+	font-size: large;
+	color: white;
+	border-radius: 3px;
+}
+
+.footer {
+	margin-top: 2em;
+	color: grey;
+}
