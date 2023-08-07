@@ -19,17 +19,19 @@ body {
 }
 
 .rate {
+	display: flex;
+	gap: -0.2px;
 	margin: 0 auto;
-	width: fit-content;
 	height: 1.37rem;
 }
 
 .rate svg.selected {
-	fill: red;
+	fill: rgb(237, 137, 29) !important;
 }
 
 .rate svg {
-	fill: rgb(243, 170, 35);
+	margin: 0 auto;
+	border: 1px dotted red;
 	height: 1.37rem;
 }
 
