@@ -22,7 +22,18 @@ body {
 	background-color: white;
 }
 
+.rate {
+	margin: 0 auto;
+	width: fit-content;
+	height: 1.37rem;
+}
+
+.rate svg.selected {
+	fill: red;
+}
+
 .rate svg {
+	fill: rgb(243, 170, 35);
 	height: 1.37rem;
 }
 
